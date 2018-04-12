@@ -1,0 +1,14 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Microsoft YaHei" !important; /* TODO whats meaning*/
+    color: black !important;
+    min-width: 1280px;
+}
+
+.index-height {
+    height: 100% !important;
+}
