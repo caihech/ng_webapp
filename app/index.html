@@ -9,8 +9,24 @@
     <title>angularjs</title>
 
     <!-- css -->
-    <link rel="stylesheet" href="bower_components/boostrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+
+
+
+    <!-- script -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+    <!-- 模块 -->
+    <script src="module.js"></script>
+    <!-- 路由 -->
+    <script src="config.js"></script>
+
+    <!--登录模块-->
+    <!--<script src="login/loginController.js"></script>-->
+
+    <!-- main -->
+    <script src="home/homeController.js"></script>
 
 </head>
 <body ng-app="myApp">
@@ -18,21 +34,6 @@
 <div ui-view class="index-height">
 
 </div>
-
-    <!-- script -->
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-    <script src="bower_components/boostrap/dist/js/bootstrap.js"></script>
-    <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
-
-    <!-- 模块 -->
-    <script src="js/module.js"></script>
-    <!-- 路由 -->
-    <script src="js/config.js"></script>
-
-    <!--登录模块-->
-    <script src="login/loginController.js"></script>
-    <script src="home/homeController.js"></script>
 
 </body>
 </html>
