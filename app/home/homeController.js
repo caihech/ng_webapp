@@ -1,11 +1,11 @@
 (function () {
     "use strict";
 
-    angular.module("home", []).controller("HomeController", ["$scope", "$rootScope"],
+    var homeModele = angular.module(["home"], []);
+
+    homeModele.controller("HomeController", ["$scope", "$rootScope",
         function ($scope, $rootScope) {
-
             console.log("HomeController");
-
-        });
+        }]);
 
 })();
