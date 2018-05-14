@@ -5,6 +5,7 @@
         "ui.router"
         , "login"
         , "home"
+        , "users"
     ]);
 
 })();

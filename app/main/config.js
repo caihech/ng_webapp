@@ -23,5 +23,12 @@
                     controller: 'LoginController'
                 }
             )
+            .state(
+                "home.users", {
+                    url: '/users',
+                    templateUrl: 'user/usersView.html',
+                    controller: 'UsersController'
+                }
+            )
     });
 })();

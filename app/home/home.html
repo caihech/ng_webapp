@@ -1,1 +1,13 @@
-home-view
+<div>
+
+    <ul ng-repeat="nav in navigation">
+        <li><a ui-sref="{{nav.utl}}">{{nav.title}}</a></li>
+    </ul>
+
+</div>
+
+
+<div ui-view>
+
+
+</div>
